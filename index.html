@@ -5,6 +5,53 @@
       <title>
         Student Information
       </title>
+     body{
+        font-family:'Segoe UI', sans-serif;
+        background: linear-gradient(to right,lightcyan,white);
+        color:black;
+        margin:0;
+        padding:40px;
+        }
+    h1{
+        text-align:center;
+        color:blue;
+        margin-bottom:30px;
+        }
+    form{
+        max-width:600px;
+        background-color:white;
+        margin:auto;
+        padding:25px 40px;
+        border-radius:15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+    label{
+        display:block;
+        margin-top: 15px;
+        font-weight:bold;
+        color:blue;
+        }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"], 
+     input[type="date"],
+    select,
+     input[type="fail"]{
+        width:100%;
+        padding:10px;
+        margin-top:5px;
+        border:1px solid lightseagreen;
+        border-radius:8px;
+        background-color:aliceblue;
+        }
+    input[type="radio"],
+    input[type="checkbox"]{
+        margin-right:10px;
+        }
+    input[type="submit"]:hover,
+        input[type="reset"]:hover{
+        background-color: cadetblue;
+        }
         
     </body>
     <h1>Registration Form</h1>
@@ -34,6 +81,7 @@
        <label> <input type= "checkbox" name="skills" value="teamwork"> Team Work Skills</label>
        <label> <input type= "checkbox" name="skills" value="leadership"> Communication Skills</label>
        <label> <input type= "checkbox" name="skills" value="communication"> Communication Skills</label>
+      <br><br>
     <label for ="course"> Internship Course </label>
       <select id ="course" name="course">
     <option value=""> SELECT </option>
